@@ -9,7 +9,7 @@ Revision 1.26
 
 
 <address>
-  Paul Armstrong<br/>
+  berylrythms<br/>
   Too many more to mention<br/>
 </address>
 
@@ -1061,14 +1061,14 @@ Revision 1.26
         Example:
         <CODE_SNIPPET>
           if ! mv "${file_list}" "${dest_dir}/" ; then
-            echo "Unable to move ${file_list} to ${dest_dir}" &gt;&amp;2
+            echo "Unable to move ${file_listp} to ${dest_dir}" &gt;&amp;2
             exit "${E_BAD_MOVE}"
           fi
 
           # Or
           mv "${file_list}" "${dest_dir}/"
           if [[ "$?" -ne 0 ]]; then
-            echo "Unable to move ${file_list} to ${dest_dir}" &gt;&amp;2
+            echo "Unable to move ${file_listp} to ${dest_dir}" &gt;&amp;2
             exit "${E_BAD_MOVE}"
           fi
 
